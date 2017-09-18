@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <color name="foregroundMaterialDark">#42ffffff</color>
+    <color name="foregroundMaterialLight">#4c000000</color>
+
+    <color name="primaryTextDefaultMaterialLight">#de000000</color>
+    <color name="secondaryTextDefaultMaterialLight">#8a000000</color>
+    <color name="primaryTextDefaultMaterialDark">#ffffffff</color>
+    <color name="secondaryTextDefaultMaterialDark">#b3ffffff</color>
+
+    <color name="switchThumbNormalMaterialDark">#ffbdbdbd</color>
+    <color name="switchThumbNormalMaterialLight">#fff1f1f1</color>
+    <color name="switchTrackNormalMaterialDark">@color/foregroundMaterialDark</color>
+    <color name="switchTrackNormalMaterialLight">@color/foregroundMaterialLight</color>
+
+</resources>
