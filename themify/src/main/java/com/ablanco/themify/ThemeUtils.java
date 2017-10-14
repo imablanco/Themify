@@ -23,6 +23,10 @@ class ThemeUtils {
         return getAttributeColor(context, R.attr.colorAccent);
     }
 
+    static int getColorControlHighLight(Context context) {
+        return getAttributeColor(context, R.attr.colorControlHighlight);
+    }
+
     private static int getAttributeColor(Context context, @AttrRes int attribute) {
         TypedValue typedValue = new TypedValue();
         context.getTheme().resolveAttribute(attribute, typedValue, true);

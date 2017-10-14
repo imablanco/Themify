@@ -1,9 +1,15 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
+    <!-- Primary & accent colors -->
+    <color name="MaterialDeepTeal200">#ff80cbc4</color>
+    <color name="MaterialDeepTeal500">#ff009688</color>
+    <color name="MaterialBlueGrey800">#ff37474f</color>
+    <color name="MaterialBlueGrey900">#ff263238</color>
+    <color name="MaterialBlueGrey950">#ff21272b</color>
 
     <color name="foregroundMaterialDark">#42ffffff</color>
     <color name="foregroundMaterialLight">#4c000000</color>
-
+    <!-- Text & foreground colors -->
     <color name="primaryTextDefaultMaterialLight">#de000000</color>
     <color name="secondaryTextDefaultMaterialLight">#8a000000</color>
     <color name="primaryTextDefaultMaterialDark">#ffffffff</color>
@@ -14,4 +20,47 @@
     <color name="switchTrackNormalMaterialDark">@color/foregroundMaterialDark</color>
     <color name="switchTrackNormalMaterialLight">@color/foregroundMaterialLight</color>
 
+    <color name="backgroundMaterialDark">#ff303030</color>
+    <color name="backgroundMaterialLight">#ffeeeeee</color>
+    <color name="backgroundFloatingMaterialDark">#ff424242</color>
+    <color name="backgroundFloatingMaterialLight">#ffeeeeee</color>
+    <color name="primaryMaterialDark">#ff212121</color>
+    <color name="primaryMaterialLight">#ffbdbdbd</color>
+    <color name="primaryDarkMaterialDark">#ff000000</color>
+    <color name="primaryDarkMaterialLight">#ff757575</color>
+    <color name="rippleMaterialDark">#40ffffff</color>
+    <color name="rippleMaterialLight">#40000000</color>
+    <color name="accentMaterialLight">@color/material_deep_teal_500</color>
+    <color name="accentMaterialDark">@color/material_deep_teal_200</color>
+    <color name="buttonMaterialDark">#ff5a595b</color>
+    <color name="buttonMaterialLight">#ffd6d7d7</color>
+    <color name="brightForegroundMaterialDark">@android:color/white</color>
+    <color name="brightForegroundMaterialLight">@android:color/black</color>
+    <!-- White 50% -->
+    <color name="brightForegroundDisabledMaterialDark">#80ffffff</color>
+    <!-- Black 50% -->
+    <color name="brightForegroundDisabledMaterialLight">#80000000</color>
+    <color name="brightForegroundInverseMaterialDark">@color/brightForegroundMaterialLight</color>
+    <color name="brightForegroundInverseMaterialLight">@color/brightForegroundMaterialDark</color>
+    <color name="dimForegroundMaterialDark">#ffbebebe</color>
+    <color name="dimForegroundMaterialLight">#ff323232</color>
+    <color name="dimForegroundDisabledMaterialDark">#80bebebe</color>
+    <color name="dimForegroundDisabledMaterialLight">#80323232</color>
+    <color name="hintForegroundMaterialDark">@color/brightForegroundDisabledMaterialDark</color>
+    <color name="hintForegroundMaterialLight">@color/brightForegroundDisabledMaterialLight</color>
+    <!-- This is 40% alpha on the default accent color. -->
+    <color name="highlightedTextMaterialDark">#6680cbc4</color>
+    <!-- This is 40% alpha on the default accent color. -->
+    <color name="highlightedTextMaterialLight">#66009688</color>
+    <color name="linkTextMaterialDark">@color/material_deep_teal_200</color>
+    <color name="linkTextMaterialLight">@color/material_deep_teal_500</color>
+
+    <item name="disabledAlphaMaterialLight" format="float" type="dimen">0.26</item>
+    <item name="disabledAlphaMaterialDark" format="float" type="dimen">0.30</item>
+    <!-- 26% of default values -->
+    <color name="primaryTextDisabledMaterialLight">#39000000</color>
+    <color name="secondaryTextDisabledMaterialLight">#24000000</color>
+    <!-- 30% of default values -->
+    <color name="primaryTextDisabledMaterialDark">#4Dffffff</color>
+    <color name="secondaryTextDisabledMaterialDark">#36ffffff</color>
 </resources>

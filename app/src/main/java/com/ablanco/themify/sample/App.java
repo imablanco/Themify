@@ -17,9 +17,10 @@ public class App extends Application {
     public void onCreate() {
         super.onCreate();
         Themify.init(Themify.builder().colorPalette(ColorPalette.builder()
-                .colorAccent(Color.RED)
+                .colorAccent(Color.GREEN)
                 .colorPrimary(Color.GREEN)
                 .colorPrimaryDark(Color.CYAN)
+                .colorControlHighLight(Color.MAGENTA)
                 .build()).build());
     }
 }
